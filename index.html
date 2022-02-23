@@ -1,274 +1,446 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="generator" content="Jekyll v3.8.5">
-    <meta name="robots" content="all,follow">
-    <title>My Portfolio</title>
 
-    <!-- Bootstrap core CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <!-- Font Awesome CSS-->
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/vendor/font-awesome/css/font-awesome.min.css">
-    <!-- Google fonts - Roboto + Roboto Slab-->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700%7CRoboto:400,700,300">
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/vendor/animate.css/animate.css">
-    <!-- Custom styles for this template -->
-    <link href="css/style.css" rel="stylesheet">
-    <!-- animate-->
-    <link href="css/animate.css" rel="stylesheet">
-    <!-- owl carousel-->
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/vendor/owl.carousel/assets/owl.carousel.css">
-    <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/vendor/owl.carousel/assets/owl.theme.default.css">
-  </head>
-  <body>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
-        <a class="navbar-brand" href="#" style="color: grey;">Mounsey Mulama</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcollapse" aria-controls="navbarcollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div id="navbarcollapse" class="collapse navbar-collapse">
-            <ul class="navbar-nav ml-auto">
-              <li class="nav-item"><a href="#intro" class="nav-link link-scroll">Intro</a></li>
-              <li class="nav-item"><a href="#about" class="nav-link link-scroll">About</a></li>
-              <li class="nav-item"><a href="#services" class="nav-link link-scroll">Services</a></li>
-              <!--<li class="nav-item"><a href="#testimonials" class="nav-link link-scroll">Testimonials</a></li>-->
-              <li class="nav-item"><a href="#references" class="nav-link link-scroll">Work</a></li>
-              <!--<li class="nav-item"><a href="#customers" class="nav-link link-scroll">Clients</a></li>-->
-              <!--<li class="nav-item"><a href="#contact" class="nav-link link-scroll">Contact</a></li>-->
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Mounsey Mulama Portfolio</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/mulama.jpg" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i|Playfair+Display:400,400i,500,500i,600,600i,700,700i,900,900i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top ">
+    <div class="container d-flex align-items-center justify-content-between">
+
+      <!--<a href="index.html" class="logo"><img src="assets/img/mulama.jpg" alt="" class="img-fluid"></a>-->
+      <!-- Uncomment below if you prefer to use an text logo -->
+      <h1 class="logo"><a href="index.html">Mulama</a></h1>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
+          <!--<li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="#">Drop Down 1</a></li>
+              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="#">Deep Drop Down 1</a></li>
+                  <li><a href="#">Deep Drop Down 2</a></li>
+                  <li><a href="#">Deep Drop Down 3</a></li>
+                  <li><a href="#">Deep Drop Down 4</a></li>
+                  <li><a href="#">Deep Drop Down 5</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Drop Down 2</a></li>
+              <li><a href="#">Drop Down 3</a></li>
+              <li><a href="#">Drop Down 4</a></li>
             </ul>
-        </div>
-    </nav>
+          </li>-->
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-<main role="main">
-
-    <!-- Intro Image -->
-    <div class="jumbotron jumbotron-fluid" style="background: url(img/bg-jumbo.jpg) center center no-repeat; background-size: cover; height:700px;">
-          <div class="container text-center" style = "margin-top:150px;">
-              <div data-animate="fadeInDown" class="logo"><img src="https://d19m59y37dris4.cloudfront.net/it-worker/2-1/img/logo-big.png" alt="logo" width="130"></div>
-              <h1 data-animate="fadeInDown" class="text-shadow mb-5">Hello !</h1>
-              <p data-animate="slideInUp" class="h3 text-shadow text-400">I grind HTML and CSS and then weld them with PYTHON into beautiful and efficient websites.</p>
-          </div>
     </div>
-    <!-- About-->
-    <section id="about" class="about-section">
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <div id="hero" class="home">
+
+    <div class="container">
+      <div class="hero-content">
+        <h1>I'm <span class="typed" data-typed-items="Mounsey Mulama, a Designer, a Developer, a Freelancer, a Photographer"></span></h1>
+        <p>Designer, Developer, Freelancer, Photographer</p>
+
+        <ul class="list-unstyled list-social">
+          <li><a href="https://github.com/richiemounti"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://twitter.com/MountiRichie"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/richie_mounti/?hl=en"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/samuel-mounsey-9133b219b/"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <div id="about" class="paddsection">
       <div class="container">
-        <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title">About me</h2>
-        </header>
-      </div>
-      <div class="row">
-        <div data-animate="fadeInUp" class="col-lg-6">
-            <p>I'm a software enthusiast with a passion for creating solutions. I've got allround skills in system and web development coupled up with enough experience to be of great counsel.</p>
-            <p>Some of my work experience involve: <li>Worked as a software enginnering intern at Shimba Technologies Limited where I interacted with a couple of coders to create solutions to different tech innovations</li><li>Attended a software enginnering bootcamp with Andela where we honed different software skills  especially in the Web development area</li></p>
-            <p>I have worked on a number of personal projects and also some contractual work ranging from areas like Web evelopment, System design, Pyhon blockchain and Artificial intelligence.</p>
-        </div>
-        <div data-animate="fadeInUp" class="col-lg-6">
-          <div class="skill-item">
-            <div class="progress-title">Flutter</div>
-            <div class="progress">
-              <div role="progressbar" style="width: 60%" aria-valuenow="0" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+        <div class="row justify-content-between">
+
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="assets/img/me2.jpeg" class="img-responsive" alt="me">
+              </div>
             </div>
           </div>
-          <div class="skill-item">
-            <div class="progress-title">Javascript</div>
-            <div class="progress">
-              <div role="progressbar" style="width: 65%" aria-valuenow="65" aria-valuemin="60" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
+
+          <div class="col-lg-7">
+            <div class="about-descr">
+
+              <p class="p-heading">im a ux /ui designer Nairobi based who loves clean, simple & unique design. i also enjoy crafting brand identities, icons, & ilustration work. </p>
+              <p class="separator">I'm a software engineer with four years of experience in building applications that scale in various tech stacks. My most vital skills are Python, Django, React and Flask. I have worked in several startups consisting of fast-moving teams with fixed deadlines. I also have experience in DevOps implementation. I am very flexible when it comes to learning new technologies and frameworks to adapt to new environments quickly.</p>
+
             </div>
-          </div>
-          <div class="skill-item">
-            <div class="progress-title">Html coding</div>
-            <div class="progress">
-              <div role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
-            </div>
-          </div>
-          <div class="skill-item">
-            <div class="progress-title">Python</div>
-            <div class="progress">
-              <div role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" class="progress-bar progress-bar-skill1"></div>
-            </div>
+
           </div>
         </div>
-        <div data-animate="fadeInUp" class="col-sm-6 mx-auto mt-5"><img src="img/mulama.jpg" alt="This is me - IT worker" class="image rounded-circle img-fluid"></div>
       </div>
-    </section>
+    </div><!-- End About Section -->
 
-    <hr class="featurette-divider">
-
-    <!-- Service -->
-    <section id="services" class="bg-gradient services-section">
+    <!-- ======= Services Section ======= -->
+    <div id="services">
       <div class="container">
-        <header class="text-center">
-          <h2 data-animate="fadeInDown" class="title">Services</h2>
-        </header>
-        <div class="row services text-center">
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="icon"><i class="fa fa-search fa-3x"></i></div>
-            <h3 class="heading mb-3 text-400">Consulting</h3>
-            <p class="text-left description">I offer consultation services on a variety of technological solutions. My consultation services range from basic idea input about a problem statement to full blown analysis and research into a particular problem or topic. The services include: Networks, Software engineering and Graphic design.</p>
+
+        <div class="services-slider swiper" data-aos="fade-up" data-aos-delay="100">
+          <div class="swiper-wrapper">
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-briefcase"></i>
+                <span>UI/UX DESIGN</span>
+                <p class="separator">Using modern UI design tools I design the layout and graphics of a websites. Based on your particular preferences I'm able to carve out your idea into reality on the web. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-card-checklist"></i>
+                <span>BRAND IDENTITY</span>
+                <p class="separator">Through various Digital Marketing strategies I am able to grow your brand to scale even grater heights. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-bar-chart"></i>
+                <span>WEB DESIGN</span>
+                <p class="separator">Im profecient in a variety of modern frameworks, both in frontend and backend technology and I am able to meet almost any clients need and expectations regarding web application development. </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-binoculars"></i>
+                <span>MOBILE APPS</span>
+                <p class="separator">I'm experienced in building beautiful native applications for both android and apple devices. Depending on a client's need, I'm able to meet the necessary expectations regarding mobile app development </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-brightness-high"></i>
+                <span>Analytics</span>
+                <p class="separator">Using the latest data science tools I'm able to get useful info from people and services related to your business enabling you to make informed descisions </p>
+              </div>
+            </div><!-- End testimonial item -->
+
+            <div class="swiper-slide">
+              <div class="services-block">
+                <i class="bi bi-calendar4-week"></i>
+                <span>PHOTOGRAPHY</span>
+                <p class="separator">I capture beautiful and amazing moments both in video and in still pictures enabling you for forever record the moment in time. If you want to relieve your favourite memories then come work with me!! </p>
+              </div>
+            </div><!-- End testimonial item -->
+
           </div>
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="icon"><i class="fa fa-html5 fa-3x"></i></div>
-            <h3 class="heading mb-3 text-400">HTML coding</h3>
-            <p class="text-left description">Using HTML and it's libraries I design the layout and graphics of a websites. Based on your particular preferences I'm able to carve out your idea into reality on the web. </p>
-            <p class="text-left description">If you want to really get the best out of HTML's amazing features then you need to hire me right now!</p>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-4">
-            <div class="icon"><i class="fa fa-tachometer fa-3x"></i></div>
-            <h3 class="heading mb-3 text-400">Python development</h3>
-            <p class="text-left description">Python is a powerful multipurpose language that can be used to develop systems and networks. It also has the cpability of making websites dynamic (ability to store informtion)</p>
-            <p class="text-left description">Python has also additional functions which include blockchain development and also Artificial intelligence and machine learning development</p>
-          </div>
-          <hr data-animate="fadeInUp">
-          <div data-animate="fadeInUp" class="text-center">
-            <p class="lead">Would you like to know more or just discuss something?</p>
-            <p><a href="#contact" class="btn btn-outline-dark link-scroll">Contact me</a></p>
+          <div class="swiper-pagination"></div>
         </div>
+
       </div>
-    </section>
 
-    <hr class="featurette-divider">
+    </div><!-- End Services Section -->
 
-    <!-- Statistics-->
-    <section id="statistics" data-dir="up" style="background: url(&quot;img/parallax.jpg&quot;);" class="statistics-section text-white parallax parallax">
+    <!-- ======= Portfolio Section ======= -->
+    <!--<div id="portfolio" class="paddsection">
+
       <div class="container">
-        <div class="row showcase text-center">
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-align-justify fa-5x"></i></div>
-              <h3 class="text-400 mt-4 text-uppercase"><span class="counter">5</span><br>Websites</h3>
-            </div>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-users fa-5x"></i></div>
-              <h3 class="text-400 mt-4 text-uppercase"><span class="counter">2</span><br>Satisfied Clients</h3>
-            </div>
-          </div>
-          <div data-animate="fadeInUp" class="col-lg-3 col-md-6">
-            <div class="item">
-              <div class="icon"><i class="fa fa-copy fa-5x"></i></div>
-              <h3 class="text-400 mt-4 text-uppercase"><span class="counter">40</span><br>Projects</h3>
-            </div>
-          </div>
+        <div class="section-title text-center">
+          <h2>My Portfolio</h2>
         </div>
       </div>
-      <div class="dark-mask"></div>
-    </section>
-    <!--
-    *** REFERENCES IMAGE ***
-    _________________________________________________________
-    -->
-    <section id="references">
+
       <div class="container">
-        <div class="col-sm-12">
-          <div class="mb-5 text-center">
-            <h2 data-animate="fadeInUp" class="title">My work</h2>
-            <p data-animate="fadeInUp" class="lead">I have worked on dozens of projects so I have picked only the latest for you.</p>
+
+        <div class="row">
+          <div class="col-lg-12 d-flex justify-content-center">
+            <ul id="portfolio-flters">
+              <li data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">App</li>
+              <li data-filter=".filter-card">Card</li>
+              <li data-filter=".filter-web">Web</li>
+            </ul>
           </div>
-          <!--
-          <ul id="filter" data-animate="fadeInUp">
-            <li class="active"><a href="#" data-filter="all">All</a></li>
-            <li><a href="#" data-filter="webdesign">Webdesign</a></li>
-            <li><a href="#" data-filter="marketing">Marketing</a></li>
-          </ul>
-          
-          <div id="detail">
-            <div class="row">
-              <div class="col-lg-10 mx-auto">
-                <span class="close"></span>
-                <div id="detail-slider" class="owl-carousel owl-theme"></div>
-                <div class="text-center">
-                  <h1 id="detail-title" class="title"></h1>
+        </div>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-2.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+            <img src="assets/img/portfolio/portfolio-4.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Card 2</h4>
+              <p>Card</p>
+              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div> End Portfolio Section -->
+
+    <!-- ======= Journal Section ======= 
+    <div id="journal" class="text-left paddsection">
+
+      <div class="container">
+        <div class="section-title text-center">
+          <h2>journal</h2>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="journal-block">
+          <div class="row">
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-1.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">SO LETS MAKE THE MOST IS BEAUTIFUL</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
                 </div>
-                <div id="detail-content"></div>
+
               </div>
             </div>
-          </div>-->
-          <!-- Reference detail-->
-          <div id="references-masonry" data-animate="fadeInUp">
-            <div class="row">
-              <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                <div class="reference"><a href="#work"><img src="img/project 2.png" alt="" class="img-fluid">
-                  <div class="overlay">
-                    <div class="inner">
-                      <h3 class="h4 reference-title">E-Commerce</h3>
-                      <p>This is a basic e-commerce catalog page displaying a list of items.</p>
-                    </div>
-                  </div></a>
-                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
-                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
-                  </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-2.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">WE'RE GONA MAKE DREAMS COMES</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
                 </div>
+
               </div>
-              <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                <div class="reference"><a href="#work"><img src="img/project 3.png" alt="" class="img-fluid">
-                  <div class="overlay">
-                    <div class="inner">
-                      <h3 class="h4 reference-title">Marketing</h3>
-                      <p>This is a content website that is used for marketing and advertisement purposes.</p>
-                      <p>Can be tailored to any purpose depending on user need.</p>
-                    </div>
-                  </div></a>
-                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
-                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
-                  </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="journal-info">
+
+                <a href="blog-single.html"><img src="assets/img/blog-post-3.jpg" class="img-responsive" alt="img"></a>
+
+                <div class="journal-txt">
+
+                  <h4><a href="blog-single.html">NEW LIFE CIVILIZATIONS TO BOLDLY</a></h4>
+                  <p class="separator">To an English person, it will seem like simplified English
+                  </p>
+
                 </div>
+
               </div>
-              <div data-category="webdesign" class="reference-item col-lg-3 col-md-6">
-                <div class="reference"><a href="http://richiemounti.github.io/kinam"><img src="img/project 4.png" alt="" class="img-fluid">
-                  <div class="overlay">
-                    <div class="inner">
-                      <h3 class="h4 reference-title">Portfolio site</h3>
-                      <p>This is a portfolio website showing the various services offfered by the vendor.</p>
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>End Journal Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <div id="contact" class="paddsection">
+      <div class="container">
+        <div class="contact-block1">
+          <div class="row">
+
+            <div class="col-lg-6">
+              <div class="contact-contact">
+
+                <h2 class="mb-30">GET IN TOUCH</h2>
+
+                <ul class="contact-details">
+                  <li><span>roysambu</span></li>
+                  <li><span> Nairobi</span></li>
+                  <li><span>+254 790491802</span></li>
+                  <li><span>mounseysamuel98@gmail.com</span></li>
+                </ul>
+
+              </div>
+            </div>
+
+            <div class="col-lg-6">
+              <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                <div class="row gy-3">
+
+                  <div class="col-lg-6">
+                    <div class="form-group contact-block1">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
                     </div>
-                  </div></a>
-                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
-                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
                   </div>
-                </div>
-              </div>
-              <div data-category="marketing" class="reference-item col-lg-3 col-md-6">
-                <div class="reference"><a href="#work"><img src="img/project 5.png" alt="" class="img-fluid">
-                  <div class="overlay">
-                    <div class="inner">
-                      <h3 class="h4 reference-title">Themes</h3>
-                      <p>Short project description goes here...</p>
+
+                  <div class="col-lg-6">
+                    <div class="form-group">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
                     </div>
-                  </div></a>
-                  <div data-images="img/main-slider1.jpg,img/main-slider2.jpg,img/main-slider3.jpg" class="sr-only reference-description">
-                    <p>Projecting surrounded literature yet delightful alteration but bed men. Open are from long why cold. If must snug by upon sang loud left. As me do preference entreaties compliment motionless ye literature. Day behaviour explained law remainder. Produce can cousins account you pasture. Peculiar delicate an pleasant provided do perceive.</p>
-                    <p>Sitting mistake towards his few country ask. You delighted two rapturous six depending objection happiness something the. Off nay impossible dispatched partiality unaffected. Norland adapted put ham cordial. Ladies talked may shy basket narrow see. Him she distrusts questions sportsmen. Tolerably pretended neglected on my earnestly by. Sex scale sir style truth ought.</p>
-                    <p class="buttons text-center"><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-globe"></i> Visit website</a><a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-download"></i> Download case study</a></p>
                   </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="form-group">
+                      <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+                    </div>
+                  </div>
+
+                  <div class="col-lg-12">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Your message has been sent. Thank you!</div>
+                  </div>
+
+                  <div class="mt-0">
+                    <input type="submit" class="btn btn-defeault btn-send" value="Send message">
+                  </div>
+
                 </div>
-              </div>
+              </form>
             </div>
           </div>
         </div>
       </div>
-    
-    </section>
-    <!-- Contact-->
+    </div><!-- End Contact Section -->
 
-</main>
+  </main><!-- End #main -->
 
-<footer class="container">
-  <p>&copy; 2019</p>
-</footer>
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-<script>window.jQuery || document.write('<script src="/docs/4.3/assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
-<script src="/docs/4.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-xrRywqdh3PHs8keKZN+8zzc5TX0GRTLCcmivcbNJWm2rs5C8PRhcEn3czEjhAO9o" crossorigin="anonymous"></script>
+  <!-- ======= Footer ======= -->
+  <div id="footer" class="text-center">
+    <div class="container">
+      <div class="socials-media text-center">
+
+        <ul class="list-unstyled">
+          <li><a href="https://github.com/richiemounti"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://twitter.com/MountiRichie"><i class="bi bi-twitter"></i></a></li>
+          <li><a href="https://www.instagram.com/richie_mounti/?hl=en"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/samuel-mounsey-9133b219b/"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+
+      </div>
+
+      <p>&copy; Copyrights Nalij. All rights reserved.</p>
+
+      <div class="credits">
+        Designed by <a href="#">Nalij-Tech</a>
+      </div>
+
+    </div>
+  </div><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
